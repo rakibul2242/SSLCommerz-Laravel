@@ -60,6 +60,21 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
+## env file
+```bash
+DB_DATABASE=SSLCommerz-Laravel
 
-## use command 
+SSLC_STORE_ID=larav68a2bf233c280
+SSLC_STORE_PASSWORD=larav68a2bf233c280@ssl
+SSLC_STORE_CURRENCY=BDT
+SSLC_ROUTE_SUCCESS=payment.success
+SSLC_ROUTE_FAILURE=payment.failure
+SSLC_ROUTE_CANCE=payment.cancel
+SSLC_ROUTE_IPN=payment.ipn
+SSLC_ALLOW_LOCALHOST=TRUE/FALSE
+```
+
+## use command
+```bash
 composer require dgvai/laravel-sslcommerz
+```
