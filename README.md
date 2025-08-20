@@ -78,3 +78,22 @@ SSLC_ALLOW_LOCALHOST=TRUE/FALSE
 ```bash
 composer require dgvai/laravel-sslcommerz
 ```
+
+```bash
+issu: after redirect to success page showing error
+http://localhost:8000/payment/success
+419
+Page Expired
+
+inspect-netword-header ->
+ Request URL
+http://localhost:8000/payment/success
+Request Method
+POST
+Status Code
+419 unknown status
+Remote Address
+127.0.0.1:8000
+Referrer Policy
+strict-origin-when-cross-origin
+```
